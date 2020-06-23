@@ -1,0 +1,159 @@
+html * {
+    margin: 0px;
+    max-width: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #0c2735;
+    padding: 5px;
+}
+
+#cabecalhotexto {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #0c2735;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu {
+
+    background-color: #0c2735;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    text-align: center;
+}
+
+#menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 60px;
+}
+
+.item {
+    background-color: white;
+    text-align: center; 
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border-top: 5px solid #0c2735;
+    border-radius: 1%;
+    border-bottom: 5px solid #0c2735;
+}
+
+.item2 {
+    background-color: white;
+    text-align: center; 
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border-top: 5px solid #0c2735;
+    border-radius: 1%;
+    border-bottom: 5px solid #0c2735;
+}
+
+#texto {
+    text-align: justify;
+    font-family: sans-serif;
+    text-transform: none;
+    color: grey;
+    font-size: 12px;
+    padding: 10px;  
+}
+
+.rodape {
+    background-color: #0c2735;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn:hover{
+    background-color: #7fb4d0
+}
+
+#menuatv {
+
+    background-color: #0c2735;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    text-align: center;
+}
+
+#menuatv a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#menulei a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#menulei {
+
+    background-color: #0c2735;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    text-align: center;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 60px;
+}
+
+.intro img {
+    padding: 0px;
+    width: 1200px;
+}
+
+.igog{
+    display: grid;
+    justify-content: center;
+}
+
+.img2 {
+    padding: 5px;
+    max-width: 120px;
+}
+
+
+.img3 {
+    padding: 10px;
+    max-width: 60px;
+}
